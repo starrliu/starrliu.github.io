@@ -39,6 +39,9 @@ jobs:
         id: pages
         uses: actions/configure-pages@v3
 
+      - name: Debug base_path
+        run: echo ${{ steps.pages.outputs.base_path }}
+
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
@@ -55,6 +58,9 @@ jobs:
           bundle exec htmlproofer _site \
             \-\-disable-external=true \
             \-\-ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
+
+      - name: Debug directory structure
+        run: ls -R "_site"
 
       - name: Upload site artifact
         uses: actions/upload-artifact@v4
