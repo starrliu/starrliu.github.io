@@ -63,7 +63,7 @@ jobs:
         run: ls -R "_site"
 
       - name: Upload site artifact
-        uses: actions/upload-pages-artifact
+        uses: actions/upload-pages-artifact@v4
         with:
           name: github-pages
           path: "_site${{ steps.pages.outputs.base_path }}"
