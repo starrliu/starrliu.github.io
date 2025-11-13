@@ -6,10 +6,18 @@ order: 4
 
 # Xingyuming Liu (刘星宇明)
 
-I am a second-year Ph.D. student at School of Electronics Engineering and Computer Science, Peking University, advised by [Prof. Chenren Xu](https://soar.group/chenren/). My research focuses on developing innovative wireless AI systems tailored for medical applications, with an emphasis on advancing biological experiments and improving human health outcomes. In addition, I maintain a broad interest in self-supervised learning, embodied intelligence, and multimodal perception.
+I am a second-year Ph.D. student at School of Electronics Engineering and Computer Science, Peking University, advised by [Prof. Chenren Xu](https://soar.group/chenren/).
+My research focuses on developing intelligent systems with multi-modal sensing and machine learning techniques.
 
+# News
+
+- 11/2025: 🚶 Start MSRA internship in Beijing. Explore the intersection of wireless sensing and embodied AI.
+
+- 11/2025: 📑 Our paper *mTrack* has been accepted by SenSys 2026! We propose a novel RFID-vision hybrid tracking system for long-term mouse social behavior analysis.
 
 # Publications
+
+- [SenSys'26] **Xingyuming Liu**, Bo Liang, Haobo Wang, Zhonghao Li, Qirui Liu, Yanxue Xue, Yunhuai Liu, Chenren Xu. **mTrack: Enabling Long-term Mouse Social Behavior Analysis through RFID-Vision Hybrid Tracking**.
 
 - [MobiSys'25 Demo] Bo Liang, Jingzhe Peng, **Xingyuming Liu**, Chen Gong, Chenren Xu. **Demo: Liquid Identification via Vision-Guided mmWave Imaging and LLM Reasoning**. [[Demo]](https://galaxywalk.github.io/files/mobisys25-erlangsight.pdf) [[Poster]](https://galaxywalk.github.io/files/mobisys25-erlangsight-poster.pdf)
 - [SECON' 23] Liang, Bo, **Xingyuming Liu**, YuCheng Wan, Siyao Cheng, Jie Liu, and Chenren Xu. **Poster: Empower Smart Agriculture with RFID Reference Infrastructure.** [[Poster]](https://ieeexplore.ieee.org/abstract/document/10287453)

@@ -14,9 +14,9 @@ timezone: Asia/Shanghai
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Starrliu # the main title
+title: Xingyuming Liu # the main title
 
-tagline: My personal blog # it will display as the sub-title
+tagline: To see the world as it is and to love it. # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   Something to keep track of.
