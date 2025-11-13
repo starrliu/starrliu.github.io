@@ -6,7 +6,7 @@ order: 4
 
 # Xingyuming Liu (刘星宇明)
 
-I am a second-year Ph.D. student at School of Electronics Engineering and Computer Science, Peking University, advised by [Prof. Chenren Xu](https://soar.group/chenren/).
+I am a second-year Ph.D. student at School of Computer Science, Peking University, advised by [Prof. Chenren Xu](https://soar.group/chenren/).
 My research focuses on developing intelligent systems with multi-modal sensing and machine learning techniques.
 
 # News
@@ -14,6 +14,8 @@ My research focuses on developing intelligent systems with multi-modal sensing a
 - 11/2025: 🚶 Start MSRA internship in Beijing. Explore the intersection of wireless sensing and embodied AI.
 
 - 11/2025: 📑 Our paper *mTrack* has been accepted by SenSys 2026! We propose a novel RFID-vision hybrid tracking system for long-term mouse social behavior analysis.
+
+- 09/2024: 🧑🏻‍🎓 Begin my Ph.D. journey at Peking University.
 
 # Publications
 
@@ -28,6 +30,7 @@ My research focuses on developing intelligent systems with multi-modal sensing a
 
 ## Teacher Assistant
 
+- Computer Networks (Honor Track), Peking University, 2025
 - Data Structures and Algorithms, Peking University, 2024
 - Computer Networks (Honor Track), Peking University, 2024
 - Data Structures and Algorithms, Peking University, 2023
