@@ -32,3 +32,4 @@ My research focuses on developing intelligent systems with multi-modal sensing a
 
 **Sports**
 - PKU Handball Team, [since 2023](https://starrliu.github.io/assets/img/2025/pku_handball.jpg).
+    - 12/2025: 🤾 Won the bronze medal in the 2025 Capital Universities Handball League (High-level Division).
