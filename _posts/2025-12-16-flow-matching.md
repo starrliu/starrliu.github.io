@@ -77,9 +77,10 @@ $$
 
 ## 一些问题
 
-1. 除了线性插值路径还有什么别的路径吗？不同路径是否对神经网络的学习有影响？
+**Q1:** 除了线性插值路径还有什么别的路径吗？不同路径是否对神经网络的学习有影响？
 
 实际上，线性插值路径是一个最简单的路径，属于目前常用的一类路径gaussian paths:
+
 $$
 p_{t|1}(x|x_1) = \mathcal{N}(x; \alpha_t x_1, \sigma_t^2 I)
 $$
@@ -87,16 +88,18 @@ $$
 其中，$\alpha_t$和$\sigma_t$是可调的参数。
 
 不同的$\alpha_t$和$\sigma_t$的选择会被称之为“Scheduler”。比如，Variance Preserving Path和Variance Exploding Path的Scheduler分别是：
+
 $$
 \text{VP:}\quad \alpha_t \equiv 1, \sigma_0 \gg 1, \sigma_0 = 0
 $$
+
 $$
 \text{VE:}\quad \alpha_t = e^{-\frac{1}{2}\beta_t}, \sigma_t = \sqrt{1 - e^{-\beta_t}}, \beta_0 \gg 1, \beta_1 = 0
 $$
 
 不同的Scheduler也会对不同的任务有不同的影响 [2]。
 
-2. 是否存在别的建模“生成问题”的方式？
+**Q2:** 是否存在别的建模“生成问题”的方式？
 
 Diffusion Models, autoregressive models, GAN, VAE等都是建模“生成问题”的方式。
 
