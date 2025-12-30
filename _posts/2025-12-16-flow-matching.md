@@ -4,6 +4,9 @@ date: 2025-12-16 22:24:00 +0800
 img_path: /assets/img/
 categories: [Technology]
 tags: [machine-learning]     # TAG names should always be lowercase
+pin: false
+math: true
+mermaid: false
 ---
 
 最近在学习vision-Language-Action model，发现目前的Action Expert使用到了Flow Matching的方法，因此想了解一下Flow Matching的原理。Flow Matching是最近几年比较流行的生成模型范式。本文介绍Flow Matching的基本原理。
