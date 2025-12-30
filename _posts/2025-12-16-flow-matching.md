@@ -2,7 +2,7 @@
 title: Flow Matching
 date: 2025-12-16 22:24:00 +0800
 img_path: /assets/img/
-categories: [Technology/Machine Learning]
+categories: [Technology]
 tags: [machine-learning]     # TAG names should always be lowercase
 ---
 
