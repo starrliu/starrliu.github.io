@@ -11,7 +11,7 @@ My research focuses on developing intelligent systems with multi-modal sensing a
 
 # News
 
-- 11/2025: 🚶 Start MSRA internship in Beijing. Explore the intersection of multi-modal sensing and embodied AI.
+- 11/2025: 🚶 Start MSRA internship in Beijing. Explore the intersection of multi-modal sensing and embodied AI mentored by [Ruichun Ma](https://www.microsoft.com/en-us/research/people/ruichunma/) and [Jiaolong Yang](https://jlyang.org/).
 - 11/2025: 📑 Our paper *mTrack* has been accepted by SenSys 2026! We propose a novel RFID-vision hybrid tracking system for long-term mouse social behavior analysis.
 - 09/2024: 🧑🏻‍🎓 Begin my Ph.D. journey at Peking University.
 
