@@ -27,7 +27,7 @@ My research focuses on developing intelligent systems with multi-modal sensing a
 
 **Teacher Assistant**
 - Computer Networks (Honor Track), Peking University, 2024, 2025.
-- Data Structures and Algorithms, Peking University, 2023, 2024.
+- Data Structures and Algorithms, Peking University, 2023, 2024, 2026.
 - Introduction to Information Science and Technology (Turing Program), Peking University, 2023.
 
 **Sports**
