@@ -1,0 +1,30 @@
+<div class="publication-list" markdown="0">
+  {% assign publications = site.data.publications | sort: 'date' | reverse %}
+  {% for publication in publications %}
+    <article class="publication" aria-labelledby="pub-{{ publication.id }}">
+      <div class="publication-image"{% if publication.image_ratio %} style="--publication-image-ratio: {{ publication.image_ratio | escape }}"{% endif %}>
+        <a href="{{ publication.links.first.url | escape }}" aria-label="View {{ publication.title | escape }}"><img src="{{ publication.image | escape }}" alt="{{ publication.image_alt | escape }}" width="600" height="400"></a>
+      </div>
+      <div class="publication-details">
+        <h3 class="publication-title" id="pub-{{ publication.id }}">
+          <a href="{{ publication.links.first.url | escape }}">{{ publication.title | escape }}</a>
+        </h3>
+        <div class="publication-meta">
+          <span class="publication-venue">{{ publication.venue | escape }}</span>
+          {% if publication.award %}
+            <span class="publication-award"><span aria-hidden="true">🏆</span> {{ publication.award | escape }}</span>
+          {% endif %}
+        </div>
+        <p class="publication-authors">{{ publication.authors | escape | replace: 'Xingyuming Liu', '<strong>Xingyuming Liu</strong>' }}</p>
+        <div class="publication-links">
+          {% for link in publication.links %}
+            <a class="publication-link{% if link.label == 'Code' %} publication-link-code{% endif %}" href="{{ link.url | escape }}" aria-label="{{ link.label | escape }}: {{ publication.title | escape }}">
+              <i class="{{ link.icon | escape }}" aria-hidden="true"></i>
+              {{ link.label | escape }}
+            </a>
+          {% endfor %}
+        </div>
+      </div>
+    </article>
+  {% endfor %}
+</div>

@@ -2,35 +2,69 @@
 # the default layout is 'page'
 icon: fas fa-info-circle
 order: 4
+custom_css: /assets/css/about.css
 ---
 
-# Xingyuming Liu (刘星宇明)
+<div class="about-page" markdown="1">
 
-I am a second-year Ph.D. student at School of Computer Science, Peking University, advised by [Prof. Chenren Xu](https://soar.group/chenren/).
-My research focuses on developing intelligent systems with multi-modal sensing and machine learning techniques.
+## Xingyuming Liu (刘星宇明)
 
-# News
+I am a third-year Ph.D. student in the School of Computer Science at Peking University, advised by [Prof. Chenren Xu](https://soar.group/chenren/). Previously, I received my bachelor's degree in CS from EECS, Peking University.
 
-- 05/2026: 🏆 Our paper *[mTrack](https://dl.acm.org/doi/10.1145/3774906.3800473)* receives Best Paper Honorable Mention at Sensys 2026.
-- 11/2025: 🚶 Start MSRA internship in Beijing. Explore embodied AI mentored by [Ruichun Ma](https://www.microsoft.com/en-us/research/people/ruichunma/) and [Jiaolong Yang](https://jlyang.org/).
-- 11/2025: 📑 Our paper *mTrack* has been accepted by SenSys 2026! We propose a novel RFID-vision hybrid tracking system for long-term mouse social behavior analysis.
-- 09/2024: 🧑🏻‍🎓 Begin my Ph.D. journey at Peking University.
+My research focuses on **physical AI**—intelligent systems that sense and interact with the physical world. I co-design hardware, software, and learning algorithms for applications in robotics and biomedicine.
 
-# Publications
+## News
 
-- [SenSys'26] **Xingyuming Liu**, Bo Liang, Haobo Wang, Zhonghao Li, Qirui Liu, Yanxue Xue, Yunhuai Liu, Chenren Xu. **mTrack: Enabling Long-term Mouse Social Behavior Analysis through RFID-Vision Hybrid Tracking**. <span style="color:red">***🏆 Best Paper Honorable Mention***</span> [[Paper]](https://dl.acm.org/doi/10.1145/3774906.3800473) [[Code]](https://github.com/SOAR-PKU/mTrack)  
-- [ICLR ME-FoMo'23] **Xingyuming Liu**, Yifei Wang, and Yisen Wang. **What Contrastive Learning Learns Beyond Class-wise Features?** [[Paper]](https://iclr.cc/virtual/2023/13623) [[Poster]](https://iclr.cc/virtual/2023/13623)
-- [MobiSys'25 Demo] Bo Liang, Jingzhe Peng, **Xingyuming Liu**, Chen Gong, Chenren Xu. **Demo: Liquid Identification via Vision-Guided mmWave Imaging and LLM Reasoning**. [[Demo]](https://galaxywalk.github.io/files/mobisys25-erlangsight.pdf) [[Poster]](https://galaxywalk.github.io/files/mobisys25-erlangsight-poster.pdf)
-- [SECON'23] Liang, Bo, **Xingyuming Liu**, YuCheng Wan, Siyao Cheng, Jie Liu, and Chenren Xu. **Poster: Empower Smart Agriculture with RFID Reference Infrastructure.** [[Poster]](https://ieeexplore.ieee.org/abstract/document/10287453)
-- [AAAI'23] Ju, Wei, Yiyang Gu, Binqi Chen, Gongbo Sun, Yifang Qin, **Xingyuming Liu**, Xiao Luo, and Ming Zhang. **Glcc: A general framework for graph-level clustering.** [[paper]](https://ojs.aaai.org/index.php/AAAI/article/view/25559)
+- 05/2026: 🏆 Our paper *[mTrack](https://dl.acm.org/doi/10.1145/3774906.3800473)* received a Best Paper Honorable Mention at SenSys 2026.
+- 11/2025: 🚶 I started an internship at Microsoft Research Asia (MSRA) in Beijing, working on embodied AI under the mentorship of [Ruichun Ma](https://www.microsoft.com/en-us/research/people/ruichunma/) and [Jiaolong Yang](https://jlyang.org/).
+- 11/2025: 📑 Our paper *mTrack* was accepted to SenSys 2026! We introduce an RFID-vision hybrid tracking system for long-term analysis of mouse social behavior.
+- 09/2024: 🧑🏻‍🎓 I began my Ph.D. at Peking University.
 
-# Service
+## Publications
 
-**Teacher Assistant**
+{% include publications.html %}
+
+## Education
+
+<div class="education" markdown="0">
+  <p class="education-institution">Peking University</p>
+  <ol class="education-list" role="list">
+    <li class="education-item education-current">
+      <div class="education-date"><time datetime="2024">2024</time> – Present</div>
+      <span class="education-track" aria-hidden="true"></span>
+      <div class="education-details">
+        <h3 class="education-degree">Ph.D. in Computer Science</h3>
+        <p class="education-school">School of Computer Science</p>
+      </div>
+    </li>
+    <li class="education-item">
+      <div class="education-date"><time datetime="2021">2021</time> – <time datetime="2024">2024</time></div>
+      <span class="education-track" aria-hidden="true"></span>
+      <div class="education-details">
+        <h3 class="education-degree">Bachelor's Degree in Computer Science</h3>
+        <p class="education-school">School of Electronics Engineering and Computer Science</p>
+      </div>
+    </li>
+    <li class="education-item">
+      <div class="education-date"><time datetime="2019">2019</time> – <time datetime="2021">2021</time></div>
+      <span class="education-track" aria-hidden="true"></span>
+      <div class="education-details">
+        <h3 class="education-degree">Undergraduate Studies</h3>
+        <p class="education-school">College of Chemistry and Molecular Engineering</p>
+      </div>
+    </li>
+  </ol>
+</div>
+
+## Service
+
+### Teaching Assistant
 - Computer Networks (Honor Track), Peking University, 2024, 2025.
 - Data Structures and Algorithms, Peking University, 2023, 2024, 2026.
 - Introduction to Information Science and Technology (Turing Program), Peking University, 2023.
 
-**Sports**
+### Sports
 - PKU Handball Team, [since 2023](https://starrliu.github.io/assets/img/2025/pku_handball.jpg).
     - 12/2025: 🤾 Won the bronze medal in the 2025 Capital Universities Handball League (High-level Division).
+
+</div>

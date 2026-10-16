@@ -1,0 +1,91 @@
+- id: musevla
+  title: "MuseVLA: An Adaptive Multimodal Sensing Vision-Language-Action Model for Robotic Manipulation"
+  date: "2026-06"
+  venue: arXiv 2026
+  authors: Xingyuming Liu, Ruichun Ma, Heyu Guo, Qixiu Li, Qingwen Yang, Lin Luo, Shiqi Jiang, Chenren Xu, Jiaolong Yang, Baining Guo
+  image: /assets/img/publications/musevla.webp
+  image_ratio: 2 / 1
+  image_alt: MuseVLA robot with a dexterous hand and sensor module including a microphone array, mmWave radar, infrared cameras, and an RGB-D camera
+  image_source: User-provided hardware image
+  links:
+    - label: Paper
+      url: https://arxiv.org/pdf/2606.17598
+      icon: far fa-file-pdf
+    - label: Code
+      url: https://github.com/microsoft/MuseVLA
+      icon: fab fa-github
+
+- id: mtrack
+  title: "mTrack: Enabling Long-term Mouse Social Behavior Analysis through RFID-Vision Hybrid Tracking"
+  date: "2026-05"
+  venue: SenSys 2026
+  authors: Xingyuming Liu, Bo Liang, Haobo Wang, Zhonghao Li, Qirui Liu, Yanxue Xue, Yunhuai Liu, Chenren Xu
+  award: Best Paper Honorable Mention
+  image: /assets/img/publications/mtrack.webp
+  image_alt: mTrack experimental setup with a camera, RFID reader, four antennas, and a top-down view of the mouse cage
+  image_source: User-provided experimental setup image
+  links:
+    - label: Paper
+      url: https://dl.acm.org/doi/10.1145/3774906.3800473
+      icon: far fa-file-pdf
+    - label: Code
+      url: https://github.com/SOAR-PKU/mTrack
+      icon: fab fa-github
+
+- id: contrastive-learning
+  title: What Contrastive Learning Learns Beyond Class-wise Features?
+  date: "2023-05"
+  venue: ICLR ME-FoMo Workshop 2023
+  authors: Xingyuming Liu, Yifei Wang, Yisen Wang
+  image: /assets/img/publications/contrastive-learning.webp
+  image_alt: Shared and subclass features learned by contrastive learning, from the paper poster
+  image_source: https://iclr.cc/media/PosterPDFs/ICLR%202023/13623.png
+  links:
+    - label: Paper
+      url: https://iclr.cc/virtual/2023/13623
+      icon: far fa-file-pdf
+    - label: Poster
+      url: https://iclr.cc/virtual/2023/13623
+      icon: far fa-image
+
+- id: liquid-identification
+  title: "Demo: Liquid Identification via Vision-Guided mmWave Imaging and LLM Reasoning"
+  date: "2025-06"
+  venue: MobiSys 2025 · Demo
+  authors: Bo Liang, Jingzhe Peng, Xingyuming Liu, Chen Gong, Chenren Xu
+  image: /assets/img/publications/liquid-identification.webp
+  image_alt: RGB-D camera and mmWave radar platform for liquid identification
+  image_source: https://galaxywalk.github.io/images/pub/erlangsight.webp
+  links:
+    - label: Demo
+      url: https://galaxywalk.github.io/files/mobisys25-erlangsight.pdf
+      icon: far fa-file-pdf
+    - label: Poster
+      url: https://galaxywalk.github.io/files/mobisys25-erlangsight-poster.pdf
+      icon: far fa-image
+
+- id: smart-agriculture
+  title: "Poster: Empower Smart Agriculture with RFID Reference Infrastructure"
+  date: "2023-09"
+  venue: SECON 2023 · Poster
+  authors: Bo Liang, Xingyuming Liu, YuCheng Wan, Siyao Cheng, Jie Liu, Chenren Xu
+  image: /assets/img/publications/smart-agriculture.webp
+  image_alt: RFID reference grid and drone used for smart agriculture
+  image_source: https://galaxywalk.github.io/images/pub/secon23.webp
+  links:
+    - label: Poster
+      url: https://ieeexplore.ieee.org/abstract/document/10287453
+      icon: far fa-image
+
+- id: glcc
+  title: "GLCC: A General Framework for Graph-Level Clustering"
+  date: "2023-02"
+  venue: AAAI 2023
+  authors: Wei Ju, Yiyang Gu, Binqi Chen, Gongbo Sun, Yifang Qin, Xingyuming Liu, Xiao Luo, Ming Zhang
+  image: /assets/img/publications/glcc.webp
+  image_alt: GLCC framework with graph augmentation, affinity graph construction, and contrastive learning
+  image_source: https://arxiv.org/pdf/2210.11879
+  links:
+    - label: Paper
+      url: https://ojs.aaai.org/index.php/AAAI/article/view/25559
+      icon: far fa-file-pdf
