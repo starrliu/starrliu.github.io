@@ -24,13 +24,6 @@
   margin-bottom: 0.65rem;
 }
 
-.about-page .education-institution {
-  margin: 0 0 1.35rem;
-  color: var(--heading-color);
-  font-size: 1.15rem;
-  font-weight: 600;
-}
-
 .about-page .education-list {
   display: grid;
   gap: 1.5rem;

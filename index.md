@@ -1,7 +1,6 @@
 ---
-# the default layout is 'page'
-icon: fas fa-info-circle
-order: 4
+layout: page
+title: Home
 custom_css: /assets/css/about.css
 ---
 
@@ -27,14 +26,13 @@ My research focuses on **physical AI**—intelligent systems that sense and inte
 ## Education
 
 <div class="education" markdown="0">
-  <p class="education-institution">Peking University</p>
   <ol class="education-list" role="list">
     <li class="education-item education-current">
       <div class="education-date"><time datetime="2024">2024</time> – Present</div>
       <span class="education-track" aria-hidden="true"></span>
       <div class="education-details">
         <h3 class="education-degree">Ph.D. in Computer Science</h3>
-        <p class="education-school">School of Computer Science</p>
+        <p class="education-school">School of Computer Science, Peking University</p>
       </div>
     </li>
     <li class="education-item">
@@ -42,7 +40,7 @@ My research focuses on **physical AI**—intelligent systems that sense and inte
       <span class="education-track" aria-hidden="true"></span>
       <div class="education-details">
         <h3 class="education-degree">Bachelor's Degree in Computer Science</h3>
-        <p class="education-school">School of Electronics Engineering and Computer Science</p>
+        <p class="education-school">School of Electronics Engineering and Computer Science, Peking University</p>
       </div>
     </li>
     <li class="education-item">
@@ -50,7 +48,7 @@ My research focuses on **physical AI**—intelligent systems that sense and inte
       <span class="education-track" aria-hidden="true"></span>
       <div class="education-details">
         <h3 class="education-degree">Undergraduate Studies</h3>
-        <p class="education-school">College of Chemistry and Molecular Engineering</p>
+        <p class="education-school">College of Chemistry and Molecular Engineering, Peking University</p>
       </div>
     </li>
   </ol>

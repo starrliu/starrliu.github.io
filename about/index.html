@@ -1,0 +1,20 @@
+---
+layout: null
+sitemap: false
+---
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="refresh" content="0; url={{ '/' | relative_url }}">
+    <link rel="canonical" href="{{ '/' | absolute_url }}">
+    <title>Redirecting to {{ site.title | escape }}</title>
+    <script>
+      window.location.replace({{ '/' | relative_url | jsonify }} + window.location.search + window.location.hash);
+    </script>
+  </head>
+  <body>
+    <p>This page has moved to the <a href="{{ '/' | relative_url }}">homepage</a>.</p>
+  </body>
+</html>
